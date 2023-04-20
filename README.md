@@ -1,1 +1,1 @@
-Anew repository for C Programming!
+A new repository for C Programming!
