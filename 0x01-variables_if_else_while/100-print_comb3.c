@@ -1,42 +1,31 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- * A program to print all possible combinations of 2 digits
- * Return: Always 0 (Success)
+ * main - Entry point. Prints all possible combinations of two digits,
+ *        in ascending order, separated by a comma followed by a space.
+ *
+ * Return: Always 0.
  */
-int main (void)
+int main(void)
 {
-	int n1=48, n2=49;
+	int digit1, digit2;
 
-	for (; n1<=56 && n2<=57;){
-
-		if (n1 < n2)
+	for (digit1 = 0; digit1 < 9; digit1++)
+	{
+		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 		{
-                        putchar(n1);
-                        putchar(n2);
-                        n2++;
+			putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
 
-                        if ((n1 == 56) && (n2 == 57))
-                                continue;
+			if (digit1 == 8 && digit2 == 9)
+				continue;
 
 			putchar(',');
-                        putchar(' ');
-
-                        if (n2 == 57)
-                        {
-                                n1++;
-                                n2 =49;
-                        }
-                        
+			putchar(' ');
 		}
-		else if (n1==n2)
-			continue;
-
-		else if (n1 > n2)
-			continue;
-
-	
 	}
+
 	putchar('\n');
-	return 0;
+
+	return (0);
 }
