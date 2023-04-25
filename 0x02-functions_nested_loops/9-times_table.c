@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 
 /**
  * times_table -Function to print the 9 multiplication table (starting with 0)
