@@ -1,0 +1,5 @@
+#Don't push testing c souce files
+2-main.c
+
+#Don't push executable files
+2-main
