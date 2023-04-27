@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void _putchar(int c)
+void _putchar(char c)
 {
 	putchar(c);
 }
