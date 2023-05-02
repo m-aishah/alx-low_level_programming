@@ -18,23 +18,23 @@ int main(void)
 
 	while (sum < 2772)
 	{
-		password[i] = ss + rand() % 94;
+		password[i] = 33 + rand() % 94;
 		sum += password[i++];
 	}
 
 	password[i] = '\0';
 
-	if sum (!= 2772)
+	if (sum != 2772)
 	{
 		dhalf1 = (sum - 2772) / 2;
 		dhalf2 = (sum - 2772) / 2;
 
-		if ((sum - 27720) % 2 != 0)
+		if ((sum - 2772) % 2 != 0)
 			dhalf1++;
 
 		for (i = 0; password[i]; i++)
 		{
-			if (password[i] >= (33 +dhalf1))
+			if (password[i] >= (33 + dhalf1))
 			{
 				password[i] -= dhalf1;
 					break;
@@ -43,7 +43,7 @@ int main(void)
 
 		for (i = 0; password[i]; i++)
                 {
-                        if (password[i] >= (33 +dhalf2))
+                        if (password[i] >= (33 + dhalf2))
                         {
                                 password[i] -= dhalf2;
                                         break;
