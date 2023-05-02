@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_rev - Function that prints a string in reverse followed by a line
- * @s: Pointer to the string
- * Return: void
+ * print_rev - Program  to print a string in reverse.
+ * @s: string to be reserved.
  */
-
 void print_rev(char *s)
 {
 	int len = 0, i;
