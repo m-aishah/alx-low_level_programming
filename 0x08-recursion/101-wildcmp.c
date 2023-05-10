@@ -58,7 +58,7 @@ char *check_postfix(char *s, char *postfix)
 	if (*postfix == '*')
 		traverse_wild(&postfix);
 
-	if (*(s + s_len - postfix_len == *postfix && *postfix != '\0')
+	if (*(s + s_len - postfix_len) == *postfix && *postfix != '\0')
 	{
 		postfix++;
 		return (check_postfix(s, postfix));
