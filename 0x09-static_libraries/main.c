@@ -1,4 +1,4 @@
-#include <libmy.a>
+#include "main.h"
 
 int main(void)
 {
