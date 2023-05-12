@@ -4,7 +4,7 @@
 /**
  * _putchar - Function to print a character
  * @c: character to be printed
- * Return: void
+ * Return: 0 (Success)
  */
 
 int _putchar(char c)
