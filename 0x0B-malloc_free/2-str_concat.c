@@ -16,6 +16,14 @@ char *concatenate(char *s1, char *s2)
 
 	for (i = 0; s1[i]; i++)
 		l1++;
+	if (s2 == NULL)
+	{
+		s3 = (char *)malloc((sizeof(char) * l1) + 1);
+		for (i = 0; i < l1; i++)
+			s3[i] = s1[i];
+		s3[i] = '\0';
+		return (s3);
+	}
 	for (i = 0; s2[i]; i++)
 		l2++;
 
