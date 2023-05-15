@@ -60,8 +60,10 @@ char *str_concat(char *s1, char *s2)
 	if (s1 == NULL)
 	{
 		if (s2 == NULL)
-			return (NULL);
-
+		{
+			s3 = (char *)malloc(1);
+			*s3 = '\0';
+		}
 		for (i = 0; s2[i]; i++)
 			l2++;
 
