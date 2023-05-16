@@ -1,7 +1,7 @@
 #include "main.h"
-
+#include <stdlib.
 /**
- * alloc_grid - Function that returns a pointer to a dimensional array
+ * allo_grid - Function that returns a pointer to a dimensional array
  * @width: Width of the array
  * @height: Height of the array
  *
@@ -42,5 +42,4 @@ int **alloc_grid(int width, int height)
 	}
 
 	return (grid);
-	}
-
+}
