@@ -1,7 +1,8 @@
 #include "main.h"
-#include <stdlib.
+#include <stdlib.h>
+
 /**
- * allo_grid - Function that returns a pointer to a dimensional array
+ * alloc_grid - Function that returns a pointer to a dimensional array
  * @width: Width of the array
  * @height: Height of the array
  *
