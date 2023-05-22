@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * print_dog - A function that prints the dog structure
