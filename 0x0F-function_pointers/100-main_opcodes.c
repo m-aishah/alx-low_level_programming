@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 		opcode = *(unsigned char *)address;
 		printf("%.2x", opcode);
 
-		if (index == -1)
+		if (index == bytes - 1)
 			continue;
 		printf(" ");
 
