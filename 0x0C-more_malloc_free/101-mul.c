@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int check_digit(char[]);
+int check_digit(char x[]);
 
 /**
  * main - Entry point. A function that multiples two positive numbers
