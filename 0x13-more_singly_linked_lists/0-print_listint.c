@@ -4,7 +4,7 @@
 /**
  * print_listint - Function that prints all elements of a list
  * @h: head of the list
- * 
+ *
  * Return: the number of nodes of the list
  */
 
