@@ -3,7 +3,7 @@ CC=gcc
 # The .c files
 SRC=main.c school.c
 # The .o files
-OBJ=main.o school.o
+OBJ=$(SRC:.c=.o)
 # Name of the executable
 NAME=school
 
